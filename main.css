@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(31, 31, 31);
+    padding-top: 16px;
+    color: rgb(2, 199, 199);
+}
+
+header h1 {
+    font-family: "Orbitron", sans-serif;
+    color: rgb(2, 199, 199);
+}
+
+header > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(2, 199, 199);
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(2, 199, 199);
+}
+
+nav {
+    background-color: rgb(2, 199, 199);
+    padding: 16px 0;
+    font-family: "Josefin Sans", sans-serif;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+    color: #fff;
+}
+
+.container-flex img {
+    width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+
+.lista-veiculos {
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos  li img{
+    max-width: 100%;
+}
+
+.lista-veiculos li h3{
+    margin: 16px 0;
+
+}
+
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: rgb(2, 199, 199);
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: rgb(48, 48, 48);
+    font-size: 0.8em;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+
+.loja {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
