@@ -18,7 +18,12 @@ header {
     background-color: rgb(31, 31, 31);
     padding-top: 16px;
     color: rgb(2, 199, 199);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
+
 
 header h1 {
     font-family: "Orbitron", sans-serif;
@@ -34,6 +39,7 @@ header > .container {
 h2 {
     font-family: "Josefin Sans", sans-serif;
     color: rgb(2, 199, 199);
+    margin-left: 16px;
 }
 
 h3 {
@@ -81,7 +87,7 @@ nav li a{
 
 .container-flex img {
     width: 400px;
-    margin-right: 24px;
+    margin-right: 50px;
 }
 
 section {
@@ -112,7 +118,7 @@ section h2 {
 
 }
 
-.lista-veiculos li button {
+button {
     display: block;
     width: 100%;
     padding: 8px;
@@ -136,7 +142,7 @@ section h2 {
 }
 
 .item-central {
-    margin: 0 5%;
+    margin: 0 17px;
 }
 
 
@@ -145,7 +151,56 @@ section h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.form-campo {
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 4px;
+    border: none;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
 body {
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: rgb(2, 199, 199);
+}
+
+.foot p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer ul li img {
+    height: 32px;
 }
