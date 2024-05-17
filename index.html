@@ -194,29 +194,29 @@
         </div>
     </section>
 
-    <section>
+    <section id="contato">
         <div class="container">
             <h2>Entre em contato</h2>
             <form>
                 <div class="form-campo">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" name="nome">
                 </div>
                 <div class="form-campo">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone">
+                    <input type="tel" id="telefone" name="telefone">
                 </div>
                 <div class="form-campo">
                     <label for="email">E-mail</label>
-                    <input type="email" id="E-mail">
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="form-campo">
                     <label for="veiculo">Veículo de interesse</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="veiculoDeInteresse" name="veiculoDeInteresse">
                 </div>
                 <div class="form-campo">
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id=""></textarea>
+                    <textarea name="mensagem" id="" name="mensagem"></textarea>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
@@ -249,16 +249,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#carousel-f1car').slick({
-                autoplay:true,
-            });
-
-            $('.menu-hamburguer').click(function(){
-                $('nav').slideToggle(); //verifica se o slide está abaixado ou levantando
-            });
-        })
-    </script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script> 
+    <script src="js/messages_pt_BR.js"></script> 
+    <script src="js/main.js"></script>
 </body>
 </html>

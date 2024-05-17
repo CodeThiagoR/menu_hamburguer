@@ -191,8 +191,14 @@ footer {
     background-color: rgb(2, 199, 199);
 }
 
-.foot p {
-    text-align: center;
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+footer p {
     font-weight: bold;
     padding-top: 16px;
 }
@@ -202,5 +208,7 @@ footer li {
 }
 
 footer ul li img {
-    height: 32px;
+    height: 28px;
+    display: block;
+    margin-top: 12px;
 }
